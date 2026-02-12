@@ -1,14 +1,33 @@
 import { ShoppingCart } from "lucide-react";
 import React from "react";
 import { RiLeafFill } from "react-icons/ri";
-import avatar from "../../src/assets/avater.jpg"
+import avatar from "../../src/assets/avater.jpg";
+import { NavLink } from "react-router";
 
 const Navbar = () => {
+  const linkClass = ({ isActive }) =>
+    isActive ? "text-green-500 font-semibold" : "text-black/50";
   const list = (
     <>
-      <li>Home</li>
-      <li>All Fruits</li>
-      <li>Categories</li>
+      <li>
+        {" "}
+        <NavLink className={linkClass} to="/">
+          Home
+        </NavLink>{" "}
+      </li>
+      <li>
+        {" "}
+        <NavLink className={linkClass} to="all-product">
+          All Product
+        </NavLink>{" "}
+      </li>
+
+      <li>
+        {" "}
+        <NavLink className={linkClass} to="categories">
+          Categories
+        </NavLink>{" "}
+      </li>
     </>
   );
   return (
@@ -22,19 +41,17 @@ const Navbar = () => {
         </div>
         {/* ============ */}
         <div className="flex items-center">
-          <ul className="flex items-center gap-5 text-black/50">
-            {list}
-          </ul>
+          <ul className="flex items-center gap-5 text-black/50">{list}</ul>
         </div>
         {/* ============ */}
         <div className="flex gap-4">
-            <div className="text-black/80 flex items-center gap-2">
-                 <ShoppingCart size={18}/>
-                <p >My Cart</p>
-            </div>
-            <div className="h-10 w-10 overflow-hidden">
-                <img src={avatar} alt="" className="object-cover h-full w-full"/>
-            </div>
+          <div className="text-black/80 flex items-center gap-2">
+            <ShoppingCart size={18} />
+            <p>My Cart</p>
+          </div>
+          <div className="h-10 w-10 overflow-hidden">
+            <img src={avatar} alt="" className="object-cover h-full w-full" />
+          </div>
         </div>
       </div>
     </div>
