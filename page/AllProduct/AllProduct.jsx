@@ -4,12 +4,10 @@ import Items from "../../component/Items/Items";
 
 const AllProduct = () => {
 
-    // without async await
+    // normal way
     // const data = fetch("./product.json").then(res=>res.json())
     // console.log(data)
 
-
-    //with async way
     const productData = async ()=> {
         const data = await fetch("./product.json")
         const res = await data.json()
@@ -17,8 +15,8 @@ const AllProduct = () => {
     }
     const data = productData()
 
-
-
+    
+    
 
   return (
     <div className="max-w-7xl mx-auto p-5 text-black">
