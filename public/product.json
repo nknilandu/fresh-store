@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Fresh Organic Spinach",
+    "category": "Veggies",
+    "price": 12.00,
+    "unit": "300g",
+    "rating": 4.8,
+    "image_url": "https://www.gardenoflife.com/media/2017/05/organic-spinach-499x392.jpg",
+    "is_best_deal": true
+  },
+  {
+    "id": 2,
+    "name": "Fuji Apples",
+    "category": "Fruits",
+    "price": 8.50,
+    "unit": "1kg",
+    "rating": 4.5,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1mbJ7MD7haVkAuNq546GuxD_Zn4IKxzeboQ&s",
+    "is_best_deal": true
+  },
+  {
+    "id": 3,
+    "name": "Valencia Oranges",
+    "category": "Fruits",
+    "price": 25.50,
+    "unit": "1000g",
+    "rating": 4.9,
+    "image_url": "https://laboiteagrains.com/cdn/shop/files/shutterstock_1840946851.jpg?v=1712688692&width=1920",
+    "is_best_deal": false
+  },
+  {
+    "id": 4,
+    "name": "Organic Whole Milk",
+    "category": "Dairy",
+    "price": 4.20,
+    "unit": "1L",
+    "rating": 4.7,
+    "image_url": "https://kalonasupernatural.com/wp-content/uploads/Organic-Whole-Milk.png",
+    "is_best_deal": false
+  },
+  {
+    "id": 5,
+    "name": "Grass-fed Ribeye",
+    "category": "Meat",
+    "price": 32.00,
+    "unit": "500g",
+    "rating": 5.0,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0V_skClyMFh63i4glWFDimLrYe22bNwLHOA&s",
+    "is_best_deal": false
+  },
+  {
+    "id": 6,
+    "name": "Atlantic Salmon",
+    "category": "Seafood",
+    "price": 18.75,
+    "unit": "250g",
+    "rating": 4.6,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT18WS0o9Of-kCl0hBZaCgoBQjvoyDSVlzEsQ&s",
+    "is_best_deal": true
+  },
+  {
+    "id": 7,
+    "name": "Frozen Blueberries",
+    "category": "Frozen",
+    "price": 9.30,
+    "unit": "400g",
+    "rating": 4.4,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLGkwF1DUQVmUJJsdpplzKIEG0BqrRd0jgnw&s",
+    "is_best_deal": false
+  },
+  {
+    "id": 8,
+    "name": "Red Bell Peppers",
+    "category": "Veggies",
+    "price": 3.50,
+    "unit": "1pc",
+    "rating": 4.3,
+    "image_url": "https://media.post.rvohealth.io/wp-content/uploads/2020/09/AN284-Red-Bell-Peppers-732x549-thumb.jpg",
+    "is_best_deal": false
+  },
+  {
+    "id": 9,
+    "name": "Salted Cashews",
+    "category": "Snacks",
+    "price": 11.00,
+    "unit": "200g",
+    "rating": 4.8,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5AYbyxLEUsE3Zj1JdLcvpdacfouOw3tZq7w&s",
+    "is_best_deal": true
+  },
+  {
+    "id": 10,
+    "name": "Greek Yogurt",
+    "category": "Dairy",
+    "price": 6.50,
+    "unit": "500g",
+    "rating": 4.7,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaZYGGuXIjNaCHGLaMe99dTCj6mxTg-6-3Zw&s",
+    "is_best_deal": false
+  },
+  {
+    "id": 11,
+    "name": "Organic Bananas",
+    "category": "Fruits",
+    "price": 2.20,
+    "unit": "1 bunch",
+    "rating": 4.6,
+    "image_url": "https://media.post.rvohealth.io/wp-content/uploads/2019/08/types-of-bananas-732x549-thumbnail.jpg",
+    "is_best_deal": true
+  },
+  {
+    "id": 12,
+    "name": "Broccoli Crowns",
+    "category": "Veggies",
+    "price": 4.00,
+    "unit": "500g",
+    "rating": 4.5,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAkb-3n5zjWT2_tTPP6gDf41geGvmOcSyZg&s",
+    "is_best_deal": false
+  },
+  {
+    "id": 13,
+    "name": "Chicken Thighs",
+    "category": "Meat",
+    "price": 14.50,
+    "unit": "1kg",
+    "rating": 4.8,
+    "image_url": "https://midwestfoodieblog.com/wp-content/uploads/2024/04/grilled-chicken-thighs-3.jpg",
+    "is_best_deal": false
+  },
+  {
+    "id": 14,
+    "name": "King Prawns",
+    "category": "Seafood",
+    "price": 22.00,
+    "unit": "300g",
+    "rating": 4.9,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhqrWotuWkO4LXRSw2U0VvHOJfSY6P6N2hNw&s",
+    "is_best_deal": true
+  },
+  {
+    "id": 15,
+    "name": "Mixed Frozen Veggies",
+    "category": "Frozen",
+    "price": 5.80,
+    "unit": "1kg",
+    "rating": 4.2,
+    "image_url": "https://www.laurafuentes.com/wp-content/uploads/2022/12/Roasted-frozen-vegetables_post_02.jpg",
+    "is_best_deal": false
+  },
+  {
+    "id": 16,
+    "name": "Dark Chocolate 70%",
+    "category": "Snacks",
+    "price": 4.50,
+    "unit": "100g",
+    "rating": 4.9,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7YOTIXpuTT1rT2BWyA8dgsJ8TIqlAUoL5sw&s",
+    "is_best_deal": false
+  },
+  {
+    "id": 17,
+    "name": "Ripe Avocado",
+    "category": "Veggies",
+    "price": 2.50,
+    "unit": "1pc",
+    "rating": 4.7,
+    "image_url": "https://californiaavocado.com/wp-content/uploads/2022/04/GroupShots_AllSize48_0013_v1_current.jpg",
+    "is_best_deal": true
+  },
+  {
+    "id": 18,
+    "name": "Fresh Strawberries",
+    "category": "Fruits",
+    "price": 7.00,
+    "unit": "250g",
+    "rating": 4.8,
+    "image_url": "https://www.pennington.com/-/media/Project/OneWeb/Pennington/Images/blog/fertilizer/How-to-Grow-Strawberries/Strawberry-og.jpg",
+    "is_best_deal": true
+  },
+  {
+    "id": 19,
+    "name": "Cheddar Cheese",
+    "category": "Dairy",
+    "price": 9.50,
+    "unit": "200g",
+    "rating": 4.6,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGL_9cC4kM0DfB4YpNT2wgbtmMubJV9YL8EA&s",
+    "is_best_deal": false
+  },
+  {
+    "id": 20,
+    "name": "Ground Turkey",
+    "category": "Meat",
+    "price": 11.20,
+    "unit": "500g",
+    "rating": 4.4,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqTf30muxio5HhN177cyVW0abdOt3XNpSMOQ&s",
+    "is_best_deal": false
+  }
+]
