@@ -1,22 +1,19 @@
 import React, { Suspense } from "react";
 import Items from "../../component/Items/Items";
 
-
 const AllProduct = () => {
+  // ======== normal way ==========
+  // const data = fetch("./product.json").then(res=>res.json())
+  // console.log(data)
 
-    // normal way
-    // const data = fetch("./product.json").then(res=>res.json())
-    // console.log(data)
-
-    const productData = async ()=> {
-        const data = await fetch("./product.json")
-        const res = await data.json()
-        return res
-    }
-    const data = productData()
-
-    
-    
+  //=======async way=========
+  const productData = async () => {
+    const data = await fetch("./product.json");
+    const res = await data.json();
+    return res;
+  };
+  const data = productData();
+  //=========================
 
   return (
     <div className="max-w-7xl mx-auto p-5 text-black">
@@ -48,10 +45,11 @@ const AllProduct = () => {
           </label>
         </div>
       </div>
+
       {/* ======================= */}
-                  <Suspense fallback={<span className=" loading loading-spinner text-primary"></span>}>
-                    <Items data={data}></Items>
-                  </Suspense>
+      <Suspense fallback={<span className=" loading loading-spinner text-primary"></span>}>
+        <Items data={data}></Items>
+      </Suspense>
 
     </div>
   );
