@@ -1,5 +1,6 @@
 import React, { Suspense } from "react";
 import Items from "../../component/Items/Items";
+import LoadingPage from "../../component/Loading/LoadingPage";
 
 const AllProduct = () => {
   // ======== normal way ==========
@@ -47,7 +48,7 @@ const AllProduct = () => {
       </div>
 
       {/* ======================= */}
-      <Suspense fallback={<span className=" loading loading-spinner text-primary"></span>}>
+      <Suspense fallback={<LoadingPage></LoadingPage>}>
         <Items data={data}></Items>
       </Suspense>
 

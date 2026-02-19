@@ -7,8 +7,8 @@ const Items = ({ data }) => {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 justify-between mt-8">
-      {itemData.map((item) => (
-        <div className="p-3 bg-[#f3f8f2] rounded-2xl w-full shadow hover:shadow-xl transition-all">
+      {itemData.map((item, i) => (
+        <div key={i} className="p-3 bg-[#f3f8f2] rounded-2xl w-full shadow hover:shadow-xl transition-all">
           <div className="h-[160px] w-full rounded-2xl overflow-hidden ">
             <img
               src={item.image_url}

@@ -9,6 +9,7 @@ import Categories from '../page/Categories/Categories.jsx';
 import ErrorApp from '../component/ErrorApp/ErrorApp.jsx';
 import PageNotFound from '../component/PageNotFound/PageNotFound.jsx';
 import AllProduct from '../page/AllProduct/AllProduct.jsx';
+import LoadingPage from '../component/Loading/LoadingPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,10 @@ const router = createBrowserRouter([
     errorElement: <ErrorApp></ErrorApp>,
      children: [
       { index: true, Component: Home },
-      { path: "categories", Component: Categories },
+      { path: "categories",
+        loader: ()=> fetch('./category.json'),
+        hydrateFallbackElement: <LoadingPage></LoadingPage>,        
+        Component: Categories },
       { path: "all-product", Component: AllProduct }
      ]
     
