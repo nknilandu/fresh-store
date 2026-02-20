@@ -1,5 +1,6 @@
 import React, { use } from "react";
 import { IoMdAdd } from "react-icons/io";
+import { Link } from "react-router";
 
 const Items = ({ data }) => {
   const itemData = use(data);
@@ -8,7 +9,8 @@ const Items = ({ data }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 justify-between mt-8">
       {itemData.map((item, i) => (
-        <div key={i} className="p-3 bg-[#f3f8f2] rounded-2xl w-full shadow hover:shadow-xl transition-all">
+        <Link to={`/details/${item.id}`} key={i} >
+        <div className="p-3 bg-[#f3f8f2] rounded-2xl w-full shadow hover:shadow-xl transition-all">
           <div className="h-[160px] w-full rounded-2xl overflow-hidden ">
             <img
               src={item.image_url}
@@ -32,6 +34,7 @@ const Items = ({ data }) => {
             </div>
           </div>
         </div>
+        </Link>
       ))}
     </div>
   );

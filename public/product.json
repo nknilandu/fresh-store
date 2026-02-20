@@ -3,51 +3,56 @@
     "id": 1,
     "name": "Fresh Organic Spinach",
     "category": "Veggies",
-    "price": 12.00,
+    "price": 12.0,
     "unit": "300g",
     "rating": 4.8,
     "image_url": "https://www.gardenoflife.com/media/2017/05/organic-spinach-499x392.jpg",
-    "is_best_deal": true
+    "is_best_deal": true,
+    "description": "Fresh Organic Spinach is crisp, tender, and deeply green—picked for peak flavor and nutrition. It has a mild earthy taste that works in salads, sandwiches, wraps, and smoothies, and it cooks down quickly for soups, omelets, pasta, and stir-fries. This spinach is ideal for clean eating because it’s naturally low in calories and fits easily into high-protein meals as a volume booster. Store it in the fridge in a dry container with a paper towel to reduce moisture and keep leaves fresh longer. Rinse well before use, especially if eating raw, and remove any wilted leaves."
   },
   {
     "id": 2,
     "name": "Fuji Apples",
     "category": "Fruits",
-    "price": 8.50,
+    "price": 8.5,
     "unit": "1kg",
     "rating": 4.5,
     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1mbJ7MD7haVkAuNq546GuxD_Zn4IKxzeboQ&s",
-    "is_best_deal": true
+    "is_best_deal": true,
+    "description": "Fuji Apples are known for their crunchy bite and naturally sweet flavor with a light floral aroma. They’re excellent for snacking because they stay crisp longer than many other varieties, and they also hold shape well when sliced into salads or baked into pies, tarts, and crisps. Their sweetness makes them a solid option for kids, smoothies, or homemade applesauce with minimal added sugar. Keep them refrigerated to maintain crunch and slow ripening; they’ll last longer if stored away from strong-smelling foods and separated from bananas, which can speed up ripening."
   },
   {
     "id": 3,
     "name": "Valencia Oranges",
     "category": "Fruits",
-    "price": 25.50,
+    "price": 25.5,
     "unit": "1000g",
     "rating": 4.9,
     "image_url": "https://laboiteagrains.com/cdn/shop/files/shutterstock_1840946851.jpg?v=1712688692&width=1920",
-    "is_best_deal": false
+    "is_best_deal": false,
+    "description": "Valencia Oranges are juicy, bright, and refreshing—often considered one of the best oranges for fresh squeezing due to their high juice content and balanced sweet-tart flavor. They’re great for breakfast, fruit bowls, desserts, and citrus-based marinades for chicken or seafood. The zest adds strong citrus aroma to baking, yogurt, and dressings. Choose oranges that feel heavy for their size (a sign of juiciness) and have firm, smooth skin. Store at room temperature for short-term use or refrigerate to extend freshness and keep the flavor bright."
   },
   {
     "id": 4,
     "name": "Organic Whole Milk",
     "category": "Dairy",
-    "price": 4.20,
+    "price": 4.2,
     "unit": "1L",
     "rating": 4.7,
     "image_url": "https://kalonasupernatural.com/wp-content/uploads/Organic-Whole-Milk.png",
-    "is_best_deal": false
+    "is_best_deal": false,
+    "description": "Organic Whole Milk is rich, creamy, and versatile—ideal for drinking, coffee, cereal, baking, and cooking. Whole milk’s natural fat content gives better texture in sauces, custards, mashed potatoes, and homemade yogurt compared to reduced-fat options. It’s also a solid staple for families because it pairs well with everyday meals and helps create more satisfying recipes. Keep refrigerated and tightly sealed to prevent absorbing fridge odors. For best quality, avoid leaving it out at room temperature for long and always use clean utensils when pouring to reduce contamination."
   },
   {
     "id": 5,
     "name": "Grass-fed Ribeye",
     "category": "Meat",
-    "price": 32.00,
+    "price": 32.0,
     "unit": "500g",
     "rating": 5.0,
     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0V_skClyMFh63i4glWFDimLrYe22bNwLHOA&s",
-    "is_best_deal": false
+    "is_best_deal": false,
+    "description": "Grass-fed Ribeye is a premium cut prized for its marbling, tenderness, and bold beefy flavor. Grass-fed beef often has a slightly leaner texture and a deeper, more mineral-rich taste compared to grain-fed. This ribeye shines with simple seasoning—salt, pepper, and high heat—whether grilled, pan-seared, or reverse-seared in the oven. Let it rest after cooking to keep juices in, and slice against the grain for maximum tenderness. Pair it with roasted vegetables, mashed potatoes, or a crisp salad. Store chilled and cook within a couple of days, or freeze for longer storage."
   },
   {
     "id": 6,
@@ -57,146 +62,161 @@
     "unit": "250g",
     "rating": 4.6,
     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT18WS0o9Of-kCl0hBZaCgoBQjvoyDSVlzEsQ&s",
-    "is_best_deal": true
+    "is_best_deal": true,
+    "description": "Atlantic Salmon is a tender, flavorful fish with a rich texture that works across many cooking styles—baking, grilling, pan-searing, air-frying, or poaching. It’s excellent with simple lemon-garlic butter, soy-ginger glaze, or herb crusts, and it pairs well with rice, quinoa, asparagus, and salads. Salmon cooks quickly, so avoid overcooking—aim for a moist, flaky center. Keep refrigerated and use soon for best freshness; if freezing, wrap tightly to prevent freezer burn. This is a strong ‘best deal’ protein option when you want a fast, nutrient-dense meal without complicated prep."
   },
   {
     "id": 7,
     "name": "Frozen Blueberries",
     "category": "Frozen",
-    "price": 9.30,
+    "price": 9.3,
     "unit": "400g",
     "rating": 4.4,
     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLGkwF1DUQVmUJJsdpplzKIEG0BqrRd0jgnw&s",
-    "is_best_deal": false
+    "is_best_deal": false,
+    "description": "Frozen Blueberries are a convenient, year-round fruit option that keeps its flavor and works perfectly for smoothies, oatmeal, yogurt bowls, muffins, pancakes, and sauces. They’re great when fresh berries are expensive or out of season, and they reduce food waste because you only use what you need. For baking, you can toss them lightly in flour to prevent sinking and color bleed. For smoothies, use them straight from frozen for thickness. Reseal the bag after each use to prevent ice crystals, and store in the coldest part of the freezer for best quality."
   },
   {
     "id": 8,
     "name": "Red Bell Peppers",
     "category": "Veggies",
-    "price": 3.50,
+    "price": 3.5,
     "unit": "1pc",
     "rating": 4.3,
     "image_url": "https://media.post.rvohealth.io/wp-content/uploads/2020/09/AN284-Red-Bell-Peppers-732x549-thumb.jpg",
-    "is_best_deal": false
+    "is_best_deal": false,
+    "description": "Red Bell Peppers are sweet, crunchy, and vibrant—excellent raw in salads, sliced for dipping, or cooked into stir-fries, fajitas, pasta, and omelets. Compared to green peppers, red peppers are typically sweeter and feel more ‘finished’ in flavor because they’re fully ripened. Roast them for deeper sweetness and a smoky edge, then blend into sauces, soups, or spreads. Store in the fridge crisper drawer and keep them dry to avoid soft spots. For meal prep, slice and store in an airtight container to make healthy snacking effortless."
   },
   {
     "id": 9,
     "name": "Salted Cashews",
     "category": "Snacks",
-    "price": 11.00,
+    "price": 11.0,
     "unit": "200g",
     "rating": 4.8,
     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5AYbyxLEUsE3Zj1JdLcvpdacfouOw3tZq7w&s",
-    "is_best_deal": true
+    "is_best_deal": true,
+    "description": "Salted Cashews are a rich, buttery snack with a satisfying crunch and lightly salty finish. They work as a standalone snack, a salad topper, or a texture boost in rice bowls and stir-fries. Cashews also blend into creamy sauces, vegan-style ‘cream’ bases, and dessert fillings when soaked and processed. Because they’re calorie-dense, portioning matters—grab a small handful rather than eating straight from the bag if you’re tracking intake. Store airtight in a cool, dry place (or refrigerate for longer freshness) to prevent oils from turning rancid."
   },
   {
     "id": 10,
     "name": "Greek Yogurt",
     "category": "Dairy",
-    "price": 6.50,
+    "price": 6.5,
     "unit": "500g",
     "rating": 4.7,
     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaZYGGuXIjNaCHGLaMe99dTCj6mxTg-6-3Zw&s",
-    "is_best_deal": false
+    "is_best_deal": false,
+    "description": "Greek Yogurt is thick, creamy, and high in protein, making it a strong staple for breakfasts, snacks, and meal prep. It’s great with fruit, honey, granola, or nuts, and it also works as a sour-cream substitute in dips, dressings, and marinades. Use it for tzatziki, creamy sauces, or baking to add moisture without heavy cream. Keep it refrigerated and avoid leaving it uncovered to prevent drying or fridge odor absorption. For best taste and texture, stir gently and use clean utensils to keep it fresh longer."
   },
   {
     "id": 11,
     "name": "Organic Bananas",
     "category": "Fruits",
-    "price": 2.20,
+    "price": 2.2,
     "unit": "1 bunch",
     "rating": 4.6,
     "image_url": "https://media.post.rvohealth.io/wp-content/uploads/2019/08/types-of-bananas-732x549-thumbnail.jpg",
-    "is_best_deal": true
+    "is_best_deal": true,
+    "description": "Organic Bananas are sweet, soft, and versatile—perfect for quick energy, smoothies, oatmeal, pancakes, and baking. They’re a go-to fruit because they require zero prep and pair well with peanut butter, yogurt, and chocolate. Overripe bananas are ideal for banana bread, muffins, or freezing for creamy smoothies. To slow ripening, keep bananas away from other fruits and consider wrapping the stems. For faster ripening, store them in a paper bag. This is a strong best-deal everyday fruit that fits almost any diet style."
   },
   {
     "id": 12,
     "name": "Broccoli Crowns",
     "category": "Veggies",
-    "price": 4.00,
+    "price": 4.0,
     "unit": "500g",
     "rating": 4.5,
     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAkb-3n5zjWT2_tTPP6gDf41geGvmOcSyZg&s",
-    "is_best_deal": false
+    "is_best_deal": false,
+    "description": "Broccoli Crowns are a nutrient-dense vegetable with a firm bite and mild, slightly sweet flavor when cooked properly. They’re excellent roasted with olive oil and garlic, steamed for quick sides, tossed into stir-fries, or blended into soups. Roasting brings out deeper flavor and crisp edges; steaming keeps it bright and tender. Store in the fridge and use within a few days for best texture. For meal prep, blanch briefly and refrigerate so it reheats well without turning mushy."
   },
   {
     "id": 13,
     "name": "Chicken Thighs",
     "category": "Meat",
-    "price": 14.50,
+    "price": 14.5,
     "unit": "1kg",
     "rating": 4.8,
     "image_url": "https://midwestfoodieblog.com/wp-content/uploads/2024/04/grilled-chicken-thighs-3.jpg",
-    "is_best_deal": false
+    "is_best_deal": false,
+    "description": "Chicken Thighs are juicy, flavorful, and forgiving to cook compared to chicken breast because they stay moist even with higher heat. They’re ideal for grilling, roasting, curries, stews, and stir-fries, and they absorb marinades extremely well. Use them for meal prep because reheated thighs still taste good and don’t dry out easily. Cook until safely done and rest before slicing. Store chilled and use within a couple of days, or freeze in portions. If you want maximum flavor and crispy skin, roast at high heat and finish under the broiler."
   },
   {
     "id": 14,
     "name": "King Prawns",
     "category": "Seafood",
-    "price": 22.00,
+    "price": 22.0,
     "unit": "300g",
     "rating": 4.9,
     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhqrWotuWkO4LXRSw2U0VvHOJfSY6P6N2hNw&s",
-    "is_best_deal": true
+    "is_best_deal": true,
+    "description": "King Prawns are large, meaty, and naturally sweet—excellent for quick cooking dishes like garlic butter prawns, stir-fries, pasta, paella, tacos, and curries. They cook fast, so timing matters: overcooking turns them rubbery. Aim for a firm, opaque texture with a slight snap. Pair with lemon, chili, garlic, and herbs for bold flavor without heavy ingredients. Keep refrigerated and cook promptly for best quality, or freeze immediately if you won’t use them soon. As a best deal, they’re a premium-tasting protein that can elevate simple meals."
   },
   {
     "id": 15,
     "name": "Mixed Frozen Veggies",
     "category": "Frozen",
-    "price": 5.80,
+    "price": 5.8,
     "unit": "1kg",
     "rating": 4.2,
     "image_url": "https://www.laurafuentes.com/wp-content/uploads/2022/12/Roasted-frozen-vegetables_post_02.jpg",
-    "is_best_deal": false
+    "is_best_deal": false,
+    "description": "Mixed Frozen Veggies are a budget-friendly, time-saving staple for fast meals—stir-fries, fried rice, soups, noodles, and quick side dishes. They reduce prep work and minimize waste, making them ideal for busy schedules. For best results, cook them on higher heat to remove excess moisture and avoid a soggy texture. Add them late in cooking to keep some bite. Store sealed to prevent freezer burn and clumping, and use directly from frozen—thawing first often makes them watery."
   },
   {
     "id": 16,
     "name": "Dark Chocolate 70%",
     "category": "Snacks",
-    "price": 4.50,
+    "price": 4.5,
     "unit": "100g",
     "rating": 4.9,
     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7YOTIXpuTT1rT2BWyA8dgsJ8TIqlAUoL5sw&s",
-    "is_best_deal": false
+    "is_best_deal": false,
+    "description": "Dark Chocolate 70% has a bold cocoa flavor with a balanced bitterness and subtle sweetness, making it a premium snack option for people who prefer less sugar. It pairs well with coffee, nuts, and fruit, and it’s excellent for baking—shaved into desserts, melted into sauces, or chopped into cookies. Because the flavor is stronger than milk chocolate, smaller portions feel satisfying. Store it in a cool, dry place away from sunlight and strong odors. If you see a whitish coating, that can be cocoa butter bloom from temperature changes—usually safe, just not as pretty."
   },
   {
     "id": 17,
     "name": "Ripe Avocado",
     "category": "Veggies",
-    "price": 2.50,
+    "price": 2.5,
     "unit": "1pc",
     "rating": 4.7,
     "image_url": "https://californiaavocado.com/wp-content/uploads/2022/04/GroupShots_AllSize48_0013_v1_current.jpg",
-    "is_best_deal": true
+    "is_best_deal": true,
+    "description": "Ripe Avocado is creamy, rich, and versatile—perfect for toast, salads, wraps, burrito bowls, guacamole, and smoothies. A ripe avocado should yield slightly to gentle pressure without feeling mushy. It adds healthy fats and makes meals more filling, which helps with appetite control and balanced nutrition. To keep cut avocado from browning, use lemon/lime juice and store airtight. If it’s not fully ripe, leave it at room temperature; to slow ripening, refrigerate once ripe. As a best deal, it’s one of the easiest upgrades to make meals taste premium."
   },
   {
     "id": 18,
     "name": "Fresh Strawberries",
     "category": "Fruits",
-    "price": 7.00,
+    "price": 7.0,
     "unit": "250g",
     "rating": 4.8,
     "image_url": "https://www.pennington.com/-/media/Project/OneWeb/Pennington/Images/blog/fertilizer/How-to-Grow-Strawberries/Strawberry-og.jpg",
-    "is_best_deal": true
+    "is_best_deal": true,
+    "description": "Fresh Strawberries are sweet, fragrant, and juicy—great for snacking, desserts, smoothies, yogurt bowls, and salads. They’re delicate, so handle gently and avoid washing until right before eating to reduce spoilage. Look for berries that are bright red with fresh green tops and no wet or moldy spots. Store them in the fridge in a breathable container lined with paper towel to absorb moisture. As a best deal, they’re a high-impact fruit: strong flavor, visually appealing, and easy to use in everything from breakfast to desserts."
   },
   {
     "id": 19,
     "name": "Cheddar Cheese",
     "category": "Dairy",
-    "price": 9.50,
+    "price": 9.5,
     "unit": "200g",
     "rating": 4.6,
     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGL_9cC4kM0DfB4YpNT2wgbtmMubJV9YL8EA&s",
-    "is_best_deal": false
+    "is_best_deal": false,
+    "description": "Cheddar Cheese is a classic, savory cheese with a firm texture and a sharp, tangy bite depending on age. It melts well, making it perfect for grilled cheese, burgers, omelets, mac and cheese, casseroles, and sauces. It’s also great sliced for sandwiches or cubed for snack boards. Keep it refrigerated and wrapped to prevent drying—wax paper plus a loose outer wrap works better than tight plastic alone. For cooking, grate it fresh for smoother melting and better flavor than pre-shredded versions that may include anti-caking agents."
   },
   {
     "id": 20,
     "name": "Ground Turkey",
     "category": "Meat",
-    "price": 11.20,
+    "price": 11.2,
     "unit": "500g",
     "rating": 4.4,
     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqTf30muxio5HhN177cyVW0abdOt3XNpSMOQ&s",
-    "is_best_deal": false
+    "is_best_deal": false,
+    "description": "Ground Turkey is a lean, versatile protein that works well in tacos, meatballs, burgers, chili, pasta sauces, and meal-prep bowls. Because it’s leaner than some ground meats, it benefits from moisture and seasoning—add onion, garlic, herbs, a bit of oil, or a binder like egg/yogurt for juicier results. Cook thoroughly and avoid overcooking to prevent dryness. Store refrigerated and use quickly, or freeze in flattened portions for faster thawing. It’s a practical everyday protein when you want lighter meals without losing flexibility in recipes."
   }
 ]

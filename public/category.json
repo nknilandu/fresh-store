@@ -1,50 +1,60 @@
 [
   {
+    "id": 1,
     "icon": "https://img.icons8.com/fluency/48/banana.png",
     "category": "Fruits",
     "title": "Sweet bananas full of natural energy."
   },
   {
+    "id": 2,
     "icon": "https://img.icons8.com/fluency/48/cheese.png",
     "category": "Dairy",
     "title": "Cheese that melts hearts and sandwiches."
   },
   {
+    "id": 3,
     "icon": "https://img.icons8.com/fluency/48/prawn.png",
     "category": "Seafood",
     "title": "Premium prawns for delicious recipes."
   },
   {
+    "id": 4,
     "icon": "https://img.icons8.com/fluency/48/broccoli.png",
     "category": "Veggies",
     "title": "Fresh green vegetables packed with nutrients."
   },
   {
+    "id": 5,
     "icon": "https://img.icons8.com/fluency/48/steak.png",
     "category": "Meat",
     "title": "High-quality meat for protein-rich meals."
   },
   {
+    "id": 6,
     "icon": "https://img.icons8.com/color/48/ice-icon.png",
     "category": "Frozen",
     "title": "Frozen food preserved for long-lasting freshness."
   },
   {
+    "id": 7,
     "icon": "https://img.icons8.com/fluency/48/french-fries.png",
     "category": "Snacks",
     "title": "Crunchy snacks for anytime cravings."
   },
   {
+    "id": 8,
     "icon": "https://img.icons8.com/fluency/48/bread.png",
     "category": "Bakery",
     "title": "Freshly baked bread and pastries."
   },
   {
+    "id": 9,
     "icon": "https://img.icons8.com/fluency/48/rice-bowl.png",
     "category": "Grains",
     "title": "Healthy grains for balanced meals."
   },
   {
+    "id": 10,
     "icon": "https://img.icons8.com/fluency/48/chili-pepper.png",
     "category": "Spices",
     "title": "Aromatic spices to boost flavor."
