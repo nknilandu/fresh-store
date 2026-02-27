@@ -11,6 +11,7 @@ import PageNotFound from "../component/PageNotFound/PageNotFound.jsx";
 import AllProduct from "../page/AllProduct/AllProduct.jsx";
 import LoadingPage from "../component/Loading/LoadingPage.jsx";
 import Details from "../page/Details/Details.jsx";
+import AuthProvider from "../provider/AuthProvider.jsx";
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
   </StrictMode>,
 );
