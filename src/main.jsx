@@ -12,6 +12,7 @@ import AllProduct from "../page/AllProduct/AllProduct.jsx";
 import LoadingPage from "../component/Loading/LoadingPage.jsx";
 import Details from "../page/Details/Details.jsx";
 import AuthProvider from "../provider/AuthProvider.jsx";
+import Login from "../page/login/login.jsx";
 
 const router = createBrowserRouter([
   {
@@ -20,26 +21,29 @@ const router = createBrowserRouter([
     errorElement: <ErrorApp></ErrorApp>,
     children: [
       { index: true, Component: Home },
+
       {
         path: "categories",
         loader: () => fetch("/category.json"),
         hydrateFallbackElement: <LoadingPage></LoadingPage>,
         Component: Categories,
       },
-      { path: "all-product", Component: AllProduct },
-      { path: "details/:id", 
 
+      { path: "all-product", Component: AllProduct },
+      { path: "login", Component: Login },
+
+      {
+        path: "details/:id",
         loader: async () => {
-          const data = await fetch("/product.json")
-          return data.json()
+          const data = await fetch("/product.json");
+          return data.json();
         },
         hydrateFallbackElement: <LoadingPage></LoadingPage>,
-
-
-         Component: Details },
+        Component: Details,
+      },
     ],
   },
-   
+
   {
     path: "*",
     Component: PageNotFound,
