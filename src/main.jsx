@@ -13,6 +13,10 @@ import LoadingPage from "../component/Loading/LoadingPage.jsx";
 import Details from "../page/Details/Details.jsx";
 import AuthProvider from "../provider/AuthProvider.jsx";
 import Login from "../page/login/login.jsx";
+import Register from "../page/Register/Register.jsx";
+import ForgotPassword from "../page/ForgotPassword/ForgotPassword.jsx";
+import AddProduct from "../page/AddProduct/AddProduct.jsx";
+import MyProduct from "../page/MyProduct/MyProduct.jsx";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +35,10 @@ const router = createBrowserRouter([
 
       { path: "all-product", Component: AllProduct },
       { path: "login", Component: Login },
+      { path: "register", Component: Register },
+      { path: "forgot-password", Component: ForgotPassword },
+      { path: "add-product", Component: AddProduct },
+      { path: "my-product", Component: MyProduct },
 
       {
         path: "details/:id",
