@@ -1,13 +1,17 @@
 import React, { useContext } from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import { FiLock } from "react-icons/fi";
-import { Link, useNavigate } from "react-router";
+import { Link, useLocation, useNavigate } from "react-router";
 import { AuthContext } from "../../provider/AuthProvider";
 
 const Login = () => {
   const { loginUser } = useContext(AuthContext);
 
   const navigate = useNavigate()
+
+
+  const location = useLocation()
+  console.log(location)
 
 
   const handleSubmit = (e) => {
@@ -21,7 +25,7 @@ const Login = () => {
         console.log(r);
         //success
 
-        navigate('/all-product')
+        navigate(location.state===null ? "/" : location.state)
 
 
       })

@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
-import { FaBox, FaDollarSign, FaImage } from "react-icons/fa";
+import { FaBox, FaImage } from "react-icons/fa";
 
 const AddProduct = () => {
+
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const formData = {
+    const newData = {
       id: Date.now().toString(),
       name: e.target.name.value,
       category: e.target.category.value,
@@ -17,8 +19,53 @@ const AddProduct = () => {
       description: e.target.description.value,
     };
 
-    console.log(formData);
+    console.log(newData);
+
+
+    const temp = [...product, newData]
+    setProduct(temp)
+
+    localStorage.setItem("product", JSON.stringify(product))
+
   };
+
+  
+  const [product, setProduct] = useState([]);
+
+  useEffect(() => {
+    fetch("/product.json")
+      .then((res) => res.json())
+      .then((data) => setProduct(data));
+  }, []);
+
+
+  // console.log(product)
+
+  localStorage.getItem("product") === null && localStorage.setItem("product", JSON.stringify(product))
+
+
+
+  // =============
+
+  // localStorage.setItem('key', "value")
+  // localStorage.setItem('name', 10)
+
+  // const array = ["name", 20, true]
+  // localStorage.setItem('arr', JSON.stringify(array))
+  // // =====
+
+  // const a = localStorage.getItem('arr')
+  // const b = JSON.parse(a)
+  // console.log(b)
+
+
+  // localStorage.removeItem("arr")
+  // localStorage.clear()
+
+
+
+
+
 
   const [categories, setCategories] = useState([]);
 
@@ -124,11 +171,11 @@ const AddProduct = () => {
               >
                 <option value="">Select Category</option>
 
-                {categories.map((item) => (
-                  <option key={item.id} value={item.category}>
-                    {item.category}
-                  </option>
-                ))}
+                {
+                  categories.map((item) => (
+                    <option key={item.id} value={item.category}> {item.category} </option> 
+                  ))
+                }
               </select>
             </div>
           </div>

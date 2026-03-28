@@ -17,6 +17,7 @@ import Register from "../page/Register/Register.jsx";
 import ForgotPassword from "../page/ForgotPassword/ForgotPassword.jsx";
 import AddProduct from "../page/AddProduct/AddProduct.jsx";
 import MyProduct from "../page/MyProduct/MyProduct.jsx";
+import PrivateRoute from "../provider/PrivateRoute.jsx";
 
 const router = createBrowserRouter([
   {
@@ -37,8 +38,22 @@ const router = createBrowserRouter([
       { path: "login", Component: Login },
       { path: "register", Component: Register },
       { path: "forgot-password", Component: ForgotPassword },
-      { path: "add-product", Component: AddProduct },
-      { path: "my-product", Component: MyProduct },
+      {
+        path: "add-product",
+        element: (
+          <PrivateRoute>
+            <AddProduct></AddProduct>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "my-product",
+        element: (
+          <PrivateRoute>
+            <MyProduct></MyProduct>
+          </PrivateRoute>
+        ),
+      },
 
       {
         path: "details/:id",
